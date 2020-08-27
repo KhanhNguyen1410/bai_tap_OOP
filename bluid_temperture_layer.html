@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="input"> <input type="button" onclick="conver()" value="check">
+<div>Degree F: <span id="degreeF"></span></div>
+<div> Degree Kenvin: <span id="degreeKenvin"></span></div>
+<script>
+    function Temperature(C) {
+        this.C = C;
+        this.getDegreeF = function () {
+            return (this.C * 1.8) + 32;
+        }
+        this.getDegreeKenvin = function () {
+            result =
+            return (this.C + 273);
+        }
+    }
+
+    function conver() {
+        let C = document.getElementById("input").value;
+        let degreeC =new Temperature(C);
+        let degreeF = degreeC.getDegreeF();
+        let degreeKenvin = degreeC.getDegreeKenvin();
+        document.getElementById('degreeF').innerHTML = degreeF;
+        document.getElementById('degreeKenvin').innerHTML = degreeKenvin;
+
+    }
+</script>
+
+</body>
+</html>
