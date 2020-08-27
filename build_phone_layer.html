@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 id="pin"></h3>
+<label>Iphone:</label>
+<input type="text" id="enterMsgIP"> <input type="button" onclick="mesageIP()" value="send">
+<div>Tin nhắn đến: <span id="mesageIP"></span></div>
+<div>Tin da gui: <span id="mesageIPed"></span></div>
+<br><label>Samsung:</label>
+<input type="text" id="enterMsgSS"> <input type="button" onclick="mesageSS()" value="send">
+<div>Tin nhắn đến: <span id="mesageSS"></span> </div>
+<div>Tin da gui: <span id="mesageSSed"></span> </div>
+<script>
+    function Mobile(id, name){
+        this.id = id;
+        this.name = name;
+        this.pin = 100;
+        this.mesage = "";
+        this.setMesage = function (mesage){
+            this.mesage = mesage;
+            this.pin--;
+        }
+        this.getMesage = function (){
+            return this.mesage;
+        }
+        this.sendMesage = function (mesage, mobile){
+            mobile.setMesage(mesage)
+        }
+        this.status
+    }
+    let iphone = new Mobile(1, "iphone");
+    let samsung = new Mobile(2, "sansung");
+    function mesageIP(){
+        iphone.sendMesage(document.getElementById('enterMsgIP').value, samsung);
+        let mesage = samsung.getMesage();
+        document.getElementById("mesageSS").innerHTML += mesage + ", ";
+        document.getElementById("mesageIPed").innerHTML += mesage + ", ";
+        pin--;
+    }
+    function mesageSS(){
+        samsung.sendMesage(document.getElementById('enterMsgSS').value, iphone);
+        let mesage = samsung.getMesage();
+        document.getElementById("mesageIP").innerHTML += mesage + ", ";
+        document.getElementById("mesageSSed").innerHTML += mesage + ", ";
+    }
+</script>
+</body>
+</html>

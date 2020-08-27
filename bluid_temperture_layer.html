@@ -15,18 +15,23 @@
             return (this.C * 1.8) + 32;
         }
         this.getDegreeKenvin = function () {
-            result =
-            return (this.C + 273);
+           let result = this.C + 273
+            return result;
         }
     }
 
     function conver() {
-        let C = document.getElementById("input").value;
-        let degreeC =new Temperature(C);
-        let degreeF = degreeC.getDegreeF();
-        let degreeKenvin = degreeC.getDegreeKenvin();
-        document.getElementById('degreeF').innerHTML = degreeF;
-        document.getElementById('degreeKenvin').innerHTML = degreeKenvin;
+        let C = +document.getElementById("input").value;
+        if (C > -273){
+            let degreeC =new Temperature(C);
+            let degreeF = degreeC.getDegreeF();
+            let degreeKenvin = degreeC.getDegreeKenvin();
+            document.getElementById('degreeF').innerHTML = degreeF;
+            document.getElementById('degreeKenvin').innerHTML = degreeKenvin;
+        } else {
+            alert("min degree is -273");
+        }
+
 
     }
 </script>
