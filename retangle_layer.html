@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rectangle layer</title>
+</head>
+<body>
+<canvas id="myCanvas" width="700px" height="600px" style="border: 1px solid #d3d3d3;"></canvas>
+<div>Area: <span id="area"></span> <br>peprimeter: <span id="perimeter"></span></div>
+
+<script>
+    function Rectangle(length, width) {
+        this.length = length;
+        this.width = width;
+        this.Area = function () {
+            return this.length * this.width;
+        }
+        this.perimeter = function () {
+            return (this.length + this.width) * 2;
+        }
+        // this.getArea = function (){
+        //     document.getElementById('area');
+        // }
+        // this.getPerimeter = function (){
+        //     document.getElementById('perimeter');
+        // }
+    }
+
+    // function createTangle(){
+    //     let length = +prompt("enter length");
+    //     let width = +prompt("enter width");
+    //     Rtg.fillRect(0,0,length,width);
+    //     Rtg.fill();
+    //
+    // }
+    let Rtg = document.getElementById('myCanvas').getContext("2d");
+    let length = +prompt("enter length");
+    let width = +prompt("enter width");
+    let rectangle = new Rectangle(length, width);
+    let area = rectangle.Area();
+    let perimeter = rectangle.perimeter();
+    document.getElementById('area').innerHTML = area;
+    document.getElementById('perimeter').innerHTML = perimeter;
+    Rtg.fillRect(0,0,length,width);
+    Rtg.fill();
+
+</script>
+</body>
+</html>
