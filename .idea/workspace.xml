@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273259c2-a9e8-413c-aeb2-c1a5c1c13d1b" name="Default Changelist" comment="" />
+    <list default="true" id="273259c2-a9e8-413c-aeb2-c1a5c1c13d1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/game_ninnja/down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_ninnja/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_ninnja/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_phone_layer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build_phone_layer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/objects/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +18,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gf0pcxgAoYqFls72S6fT4oe3un" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +36,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game_ninnja" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Phần mềm học tập\Codegym\module1_tuan3\bai_tap_OOP\game_ninnja" />
+      <recent name="C:\Phần mềm học tập\Codegym\module1_tuan3\bai_tap_OOP\objects" />
+      <recent name="C:\Phần mềm học tập\Codegym\module1_tuan3\bai_tap_OOP" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,7 +54,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598490522861</updated>
-      <workItem from="1598490523981" duration="11903000" />
+      <workItem from="1598490523981" duration="17173000" />
+      <workItem from="1598539242340" duration="3098000" />
+      <workItem from="1598576203740" duration="4342000" />
     </task>
     <servers />
   </component>
@@ -41,9 +64,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598495178429">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598578373764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598495178429" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598578373764" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598521157788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598521157788" />
   </component>
 </project>

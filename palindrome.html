@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palindrome</title>
+</head>
+<body>
+<input type="text" oninput="displayPalindrome()" id="txt">
+<br>
+<span id="result"></span>
+<script>
+    function isPalindrome(s,i) {
+        return (i=i||0) <0 || i>=s.length>>1 || s[i]==s[s.length-1-i] && isPalindrome(s,++i);
+    }
+    function displayPalindrome(){
+        let txt = document.getElementById('txt').value;
+        let check = isPalindrome(txt);
+        document.getElementById('result').innerHTML = check;
+    }
+</script>
+</body>
+</html>
