@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script src="Rat.js"></script>
+<script src="Cat.js"></script>
+<script>
+    let rat=new Rat("Tom",3,10);
+    let cat=new Cat("Jerry",10,20);
+    cat.makeNoise();
+    rat.makeNoise();
+    cat.catchRat(rat);
+    document.write("Tom: "+rat.status);
+    document.write("Jerry: "+cat.weight);
+</script>
+</body>
+</html>

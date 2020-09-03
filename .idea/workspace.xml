@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273259c2-a9e8-413c-aeb2-c1a5c1c13d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game_ninnja/down1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_ninnja/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_ninnja/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_phone_layer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build_phone_layer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/objects/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="273259c2-a9e8-413c-aeb2-c1a5c1c13d1b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/game_ninnja" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -57,6 +49,7 @@
       <workItem from="1598490523981" duration="17173000" />
       <workItem from="1598539242340" duration="3098000" />
       <workItem from="1598576203740" duration="4342000" />
+      <workItem from="1599096937424" duration="360000" />
     </task>
     <servers />
   </component>
