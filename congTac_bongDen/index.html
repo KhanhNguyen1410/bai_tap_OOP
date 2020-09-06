@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switchButton</title>
+
+</head>
+<body>
+<input type="button" onclick="turnOn()" value="turnOn">
+<input type="button" onclick="turnOff()" value="turnOff">
+<script src="ElectricLamp.js"></script>
+<script src="switchButton.js"></script>
+<script>
+let switchButton = new SwitchButton();
+let electricLamp = new ElectricLamp()
+
+
+ function turnOn(){
+     switchButton.switchOn();
+     switchButton.connectTOLamp(electricLamp);
+ }
+ function turnOff(){
+     switchButton.switchOff();
+     switchButton.connectTOLamp(electricLamp);
+ }
+</script>
+</body>
+</html>
