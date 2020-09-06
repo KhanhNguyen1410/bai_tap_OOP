@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273259c2-a9e8-413c-aeb2-c1a5c1c13d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/congTac_bongDen/ElectricLamp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/congTac_bongDen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/congTac_bongDen/switchButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remoteTV/TV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remoteTV/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remoteTV/remote.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <workItem from="1598576203740" duration="4342000" />
       <workItem from="1599096937424" duration="360000" />
       <workItem from="1599097762416" duration="789000" />
-      <workItem from="1599384618699" duration="1043000" />
+      <workItem from="1599384618699" duration="5260000" />
     </task>
     <servers />
   </component>
